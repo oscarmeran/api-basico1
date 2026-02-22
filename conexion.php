@@ -14,7 +14,7 @@ $base_datos = "api_cervezas"; //El nombre de la base de datos que creamos
 try {
     // Intenta crear una nueva conexión usando PDO
     // PDO requiere: tipo de base (mysql), host y nombre de la base de datos
-    $conexion = new PDO ("mysql:host=$host;dbnam=$base_datos;charset=utf8", $user, $contrasena);
+    $conexion = new PDO ("mysql:host=$host;dbname=$base_datos;charset=utf8", $user, $contrasena);
 
     // Configuramos PDO para que nos muestre los errores si algo sale mal
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
