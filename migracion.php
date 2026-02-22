@@ -22,4 +22,15 @@ try {
     // Si ocurre un error al crear la tabla, lo mostramos
     echo "Error al crear la tabla: " . $e->getMessage();
 }
+
+
+// http://localhost/api-basico1/migracion.php
 ?>
+
+
+
+
+
+
+
+
